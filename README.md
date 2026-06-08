@@ -1,20 +1,28 @@
 # Hi, I'm Dylan 👋
 
-I'm a Computer Science graduate from Boston University (B.A., minor in Data Science) based in New Jersey. I'm interested in software engineering, machine learning, and data — specifically building things end to end, from messy datasets to working systems.
+I'm a Computer Science graduate from Boston University (B.A., minor in Data Science) based in New Jersey. I build things end to end — distributed systems, ML pipelines, and data-driven applications.
 
 ## Projects
 
 **[Pokémon Battle Outcome Predictor](https://github.com/dmohsen/Pokemon-Battle-Outcome-Predictor)** · Python, Scikit-learn, Pandas
-Trained and compared four ML models on 50,000+ battle records to predict outcomes and identify key predictors. Random Forest won with the lowest MAE. Key finding: Speed accounts for ~90% of feature importance.
 
-**Recipe Finder** · Python, SQLite, REST APIs
-Web app that matches ingredients to recipes using dual API integration (Spoonacular + Edamam). Built with Google OAuth, TLS-secured requests, and a relational schema supporting 500+ saved recipes with efficient cross-table lookups.
+ML pipeline trained on 50,000+ battle records across four models. Random Forest had the lowest MAE at 95% accuracy. Feature importance analysis confirmed Speed as the dominant predictor (~90%), validated by a speed-only model matching full-model predictions on 94% of matchups.
 
-**Raft Consensus Algorithm** · Go
-From-scratch implementation of the Raft distributed consensus protocol — leader election, log replication, fault tolerance, and crash recovery across a multi-node cluster. Validated with 50+ test cases covering network partitions and simultaneous failures.
+**[Raft Consensus Algorithm](https://github.com/dmohsen/Raft-Consensus-Algorithm-Implementation)** · Go
+
+From-scratch implementation of the Raft distributed consensus protocol — leader election, log replication, persistent state, and crash recovery across a multi-node cluster. Validated with 50+ test cases covering network partitions and simultaneous node failures.
+
+**[Recipe Finder](https://github.com/dmohsen/Recipe-Finder-Application)** · Python, SQLite, REST APIs
+
+Web app that matches ingredients to recipes via dual API integration (Spoonacular + Edamam). Relational SQLite schema supports 500+ saved recipes with efficient cross-table lookups, Google OAuth authentication, and TLS-secured API requests.
+
+**[Soil Microbe Abundance Prediction](https://github.com/dmohsen/Soil-Microbe-Abundance-Prediction)** · Python, XGBoost, Scikit-learn
+
+End-to-end ML pipeline built for a PhD researcher to predict soil microbial abundance from environmental data. Engineered geographic, statistical, and interaction-based features; tuned XGBoost via RandomizedSearchCV, outperforming five other models on R² and MSE.
 
 **Database Engine** · Java
-SQL-style query execution engine supporting structured data retrieval, aggregation, and relational operations across 10,000+ records with full data validation and constraint enforcement.
+
+SQL-style query execution engine supporting INSERT, SELECT, aggregation, and relational operations across 10,000+ records with full constraint enforcement and data validation.
 
 ## Skills
 
@@ -26,6 +34,6 @@ SQL-style query execution engine supporting structured data retrieval, aggregati
 
 ## Currently
 
-Open to software engineering, data science, data analyst, and ML roles. Feel free to reach out.
+Open to software engineering, data science, and ML roles. Feel free to reach out.
 
 📧 dylan.mohsen@gmail.com · [LinkedIn](https://linkedin.com/in/dylan-mohsen)

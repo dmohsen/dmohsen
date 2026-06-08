@@ -1,6 +1,6 @@
 # Hi, I'm Dylan 👋
 
-I'm a Computer Science graduate from Boston University (B.A., minor in Data Science) based in New Jersey. I build things end to end — distributed systems, ML pipelines, and data-driven applications.
+I'm a Computer Science graduate from Boston University (B.A., minor in Data Science). I build things end to end — distributed systems, ML pipelines, and data-driven applications.
 
 ## Projects
 

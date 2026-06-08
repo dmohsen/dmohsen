@@ -26,6 +26,6 @@ SQL-style query execution engine supporting structured data retrieval, aggregati
 
 ## Currently
 
-Open to software engineering, data science, and ML roles. Feel free to reach out.
+Open to software engineering, data science, data analyst, and ML roles. Feel free to reach out.
 
 📧 dylan.mohsen@gmail.com · [LinkedIn](https://linkedin.com/in/dylan-mohsen)
